@@ -35,11 +35,15 @@ Currently seeking **Winter 2027 co-op roles** in quantitative research, risk and
 ![MS Access](https://img.shields.io/badge/MS_Access-A4373A?style=flat)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
 
-### Current project
+### Projects
 
-**Does the crypto size premium survive trading costs?** *(In progress)*
+**[Does the crypto liquidity premium survive trading costs?](https://github.com/NeillBotushanski/crypto-liquidity-premium)** *(In progress)*
 
-A research project testing whether small cryptocurrencies still outperform large ones once realistic execution costs are taken into account. I'm building a Python pipeline (pandas, NumPy) that turns minute-level First Rate Data for 75 crypto assets into a daily panel with dollar volume, volatility, momentum and Amihud illiquidity measures, then forms small-minus-large portfolios with microcap screens, turnover-based transaction costs and shorting constraints.
+A research project testing whether illiquid cryptocurrencies earn a return premium over liquid ones, and whether that premium survives conservative trading costs. Using minute-level First Rate Data for 75 crypto assets, I build a daily panel in Python (pandas, NumPy), sort coins each month on lagged Amihud illiquidity, and evaluate illiquid-minus-liquid portfolios across a grid of trading costs with a break-even-cost analysis.
+
+**[Geopolitical conflict and financial markets](https://github.com/NeillBotushanski/geopolitical-conflict-markets)** *(In progress)*
+
+An event study of how major geopolitical conflict shocks affect the returns and volatility of U.S. equity sectors compared with major cryptocurrencies, and which sectors hold up best. I'm currently finalizing the event-selection protocol and event registry before collecting market data.
 
 ### Leadership
 
