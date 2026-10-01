@@ -15,6 +15,7 @@ Currently seeking **Winter 2027 co-op roles** in quantitative research, risk and
 - **Quantitative finance and risk:** financial modeling, cash-flow analysis, valuation and risk analysis
 - **Actuarial modeling:** actuarial science training with hands-on GGY AXIS experience
 - **Financial data science:** high-frequency market data, cross-sectional factor research and transaction-cost analysis
+- **Systematic trading:** intraday signals, pairs trading and risk-based position sizing
 - **Research tooling:** reproducible Python data pipelines, data validation and testing
 
 ### Tech stack
@@ -44,6 +45,10 @@ A research project testing whether illiquid cryptocurrencies earn a return premi
 **[Geopolitical conflict and financial markets](https://github.com/NeillBotushanski/geopolitical-conflict-markets)** *(In progress)*
 
 An event study of how major geopolitical conflict shocks affect the returns and volatility of U.S. equity sectors compared with major cryptocurrencies, and which sectors hold up best. I'm currently finalizing the event-selection protocol and event registry before collecting market data.
+
+**[Quant Bot: intraday equities trading bot](https://github.com/NeillBotushanski/quant-bot)**
+
+A Python trading bot for the Alpaca paper-trading API. It scans the most liquid U.S. stocks, generates momentum, reversal and pairs-trading signals from 1-minute data, sizes each position from a fixed risk budget, and scales risk up or down based on its own recent results. It also includes a drawdown circuit breaker, end-of-day reporting and an offline backtester.
 
 ### Leadership
 
