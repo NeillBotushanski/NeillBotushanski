@@ -38,7 +38,7 @@ Currently seeking **Winter 2027 co-op roles** in quantitative research, risk and
 
 ### Projects
 
-**[Does the crypto size premium survive trading costs?](https://github.com/NeillBotushanski/crypto-size-premium)** *(In progress)*
+**[Does the crypto size premium survive trading costs?](https://github.com/NeillBotushanski/crypto-size-premium)**
 
 A research project testing whether small cryptocurrencies earn a return premium over large ones, and whether that premium survives trading costs and the exclusion of microcaps. Using minute-level First Rate Data and Coin Metrics circulating supply for 65 coins (July 2019 to December 2025), I build the panel in Python (pandas, NumPy), sort coins each month into terciles on lagged market capitalization, and measure the small-minus-large return gross and net of an Amihud/turnover cost estimate, a 0–500 bps cost grid and the break-even cost, with Fama–MacBeth regressions, robustness checks and a purged cross-validation ML check.
 
