@@ -4,8 +4,6 @@
 
 I work where mathematics, finance and software meet: risk modeling, valuation and financial data science, plus the Python tools that make that work faster and more reliable. Based in Toronto.
 
-Currently seeking **Winter 2027 co-op roles** in quantitative research, risk and investments.
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Neill_Botushanski-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neillbotushanski/)
 
 ---
