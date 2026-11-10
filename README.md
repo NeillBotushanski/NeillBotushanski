@@ -40,9 +40,17 @@ I work where mathematics, finance and software meet: risk modeling, valuation an
 
 A research project testing whether small cryptocurrencies earn a return premium over large ones, and whether that premium survives trading costs and the exclusion of microcaps. Using minute-level First Rate Data and Coin Metrics circulating supply for 65 coins (July 2019 to December 2025), I build the panel in Python (pandas, NumPy), sort coins each month into terciles on lagged market capitalization, and measure the small-minus-large return gross and net of an Amihud/turnover cost estimate, a 0–500 bps cost grid and the break-even cost, with Fama–MacBeth regressions, robustness checks and a purged cross-validation ML check.
 
+**[Is the vendor's secret sauce priced? Bloomberg vs reproducible news sentiment](https://github.com/NeillBotushanski/bloomberg-vs-reproducible-sentiment)** *(In progress)*
+
+A Dynamic Data Science research project testing whether the gap between Bloomberg's proprietary news sentiment and a reproducible lexicon/transformer score on the same headlines carries information about subsequent returns for S&P 500 stocks. I pulled the market and news data from the Bloomberg terminal (2020–2025), validated it and built a point-in-time panel of about 760,000 security-days in Python; the hypothesis tests come next. The data is proprietary, so the repository holds the code, design log and outputs.
+
 **[Geopolitical conflict and financial markets](https://github.com/NeillBotushanski/geopolitical-conflict-markets)** *(In progress)*
 
 An event study of how major geopolitical conflict shocks affect the returns and volatility of U.S. equity sectors compared with major cryptocurrencies, and which sectors hold up best. I'm currently finalizing the event-selection protocol and event registry before collecting market data.
+
+**[alphaforge: self-learning trading bot](https://github.com/NeillBotushanski/alphaforge)**
+
+A Python trading bot for Alpaca that scans the whole U.S. stock and ETF market each week, searches for trading signals and keeps only those that survive multiple-testing corrections (Deflated Sharpe Ratio, Probability of Backtest Overfitting). A meta-labeling model decides when to act on each signal, hierarchical risk parity sizes the bets, and the bot retrains itself on a champion/challenger schedule while logging every trade to an auto-updating Excel workbook. The source code is private; the repository documents the design and research method.
 
 **[Quant Bot: intraday equities trading bot](https://github.com/NeillBotushanski/quant-bot)**
 
